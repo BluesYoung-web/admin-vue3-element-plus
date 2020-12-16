@@ -1,0 +1,40 @@
+{
+  "name": "admin-vue3-element-plus",
+  "version": "1.0.0",
+  "description": "基于 Vue3 和 Element Plus 的后台管理系统",
+  "main": "main.ts",
+  "scripts": {
+    "dev": "SET NODE_ENV=development&& vite",
+    "dev:test": "SET NODE_ENV=test&& vite --mode test",
+    "dev:prod": "SET NODE_ENV=production&& vite --mode production",
+    "build:dev": "SET NODE_ENV=development&& SET IS_ONLINE=true&& vite build --mode development",
+    "build:test": "SET NODE_ENV=test&& SET IS_ONLINE=true&& vite build --mode test",
+    "build": "SET NODE_ENV=production&& SET IS_ONLINE=true&& vite build"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "element-plus": "latest",
+    "js-cookie": "^2.2.1",
+    "normalize.css": "^8.0.1",
+    "nprogress": "^0.2.0",
+    "vue": "^3.0.2",
+    "vue-router": "^4.0.0-rc.6",
+    "vuex": "^4.0.0-rc.2"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/js-cookie": "^2.2.6",
+    "@types/nprogress": "^0.2.0",
+    "@vue/compiler-sfc": "^3.0.2",
+    "sass": "^1.29.0",
+    "typescript": "^4.1.2",
+    "vite": "^1.0.0-rc.8"
+  },
+  "keywords": [
+    "vue3",
+    "admin",
+    "element-plus"
+  ],
+  "author": "BluesYoung-web",
+  "license": "ISC"
+}
